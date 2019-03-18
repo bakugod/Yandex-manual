@@ -1,0 +1,59 @@
+.rating{
+	display: flex;
+	margin-left: 40px;
+}
+.star{
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+
+	background-repeat: no-repeat;
+	background-image: url(https://yastatic.net/s3/front-maps-static/front-maps/_/178df0f18f6025c2e764130c7d1ac463.svg);
+}
+.star--empty{
+	filter: grayscale(1);
+}
+.review-card__view{
+	margin-bottom: 15px;
+}
+.review-all{
+	opacity: .5;
+}
+.reaction{
+	margin-bottom: 30px;
+}
+.reaction-button{
+	margin: 0 8px;
+	padding: 3px 12px;
+
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+}
+.reaction-button--link{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #c7c7c7;
+}
+.inspector img {
+	border-radius: 30px;
+}
+.reply{
+	display: flex;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 40px;
+}
+.reply textarea{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+	resize: none;
+}
+.reply textarea::-webkit-input-placeholder{
+	font-weight: 800;
+}
+.reply textarea::-moz-placeholder{
+	font-weight: 800;
+}

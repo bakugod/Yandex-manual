@@ -1,0 +1,34 @@
+.Navigation{
+	border-bottom: 1px solid #eaeaea;
+}
+.list{
+	margin-left: 265px;
+}
+.list-item{
+	display: inline-block;
+	padding: 25px 0px 25px 0px;
+	margin: 0 12px;
+
+	border-bottom: 2px solid transparent;
+}
+.list-item button{
+	border: 2px solid white;
+	background-color: #fff;
+	color: #444;
+	cursor: pointer;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;	
+}
+.list-item button:hover{
+	color: #e00;
+}
+.list-item--selected{
+	color: red;
+	border-bottom: 2px solid black;
+}
+
+#content-second, #content-third{
+	display: block;
+	align-items: center;
+	text-align: center;
+}

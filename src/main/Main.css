@@ -1,0 +1,50 @@
+.main{
+	margin-left: 277px;
+}
+.title{
+	display: flex;
+	align-items: flex-end;
+
+	margin: 20px 0 20px 0;
+}
+.title h1{
+	margin-right: 20px;
+	font-weight: 400;
+}
+.agency-about{
+	display: flex;
+}
+.agency-about li{
+	cursor: pointer;
+
+	text-align: center;
+
+	margin: 5px 0;
+	padding: 4px 25px;
+	border: 1px solid #888;
+}
+.agency-about li:hover{
+	background-color: #FFE698;
+}
+.inspector{
+	display: flex;
+	align-items: center;
+}
+.inspector img{
+	margin-right: 6px;
+}
+.rating span{
+	margin: 0 2px;
+}
+.maps-logo{
+	float: left;
+	width: 24px;
+	height: 24px;
+
+	filter: grayscale(1);
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='%23e00000' d='M14.88 9.75l4.46-2.42c0 3.54-2.47 7.59-4.64 11.07L11 24l1.67-10.33 2.21-3.92z'/%3E%3Ccircle cx='12' cy='7.33' r='7.33' fill='%23f33'/%3E%3Ccircle cx='12' cy='7.33' r='3' fill='%23fff'/%3E%3C/svg%3E");
+}
+h2{
+	margin: 20px 0 20px 0;
+}
